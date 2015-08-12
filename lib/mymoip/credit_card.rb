@@ -7,7 +7,7 @@ module MyMoip
                   :perform_extra_validation
 
     AVAILABLE_LOGOS = [
-      :american_express, :diners, :hipercard, :mastercard, :visa
+      :american_express, :diners, :elo, :hipercard, :mastercard, :visa
     ]
 
     validates_presence_of :logo, :security_code
